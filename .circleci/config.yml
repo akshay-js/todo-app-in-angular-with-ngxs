@@ -34,5 +34,4 @@ workflows:
     jobs:
        - build
        - publish:
-           context:
-              - cred
+           context: cred
